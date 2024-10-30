@@ -1,0 +1,73 @@
+.haq-registration-form label {
+    display: block;
+    float: left;
+    width: 96% !important;
+    margin: 0 !important;
+}
+#term_condition, #age_validation {
+    float: left !important;
+    width: 15px !important;
+	margin-top: 6px !important;
+}
+#haqRegistrationForm p {
+    width: 100% !important;
+    float: left !important;
+    margin-bottom: 10px !important;
+}
+.haq-registration-form input[type="text"], 
+.haq-registration-form input[type="password"],
+.haq-registration-form input[type="email"] {
+	padding: 4px 8px;
+	background: #f0f0f0;
+	border: 1px solid #efefef;
+	font-size: 17px;
+	width:100%;
+}
+
+.haq-login-form label { 
+	display: block; 
+	float: left; 
+	width: 100%; 
+	font-size:15px;
+}
+.haq-login-form input[type="text"], 
+.haq-login-form input[type="password"],
+.haq-login-form input[type="email"] {
+	padding: 4px 8px;
+	background: #f0f0f0;
+	border: 1px solid #efefef;
+	font-size: 17px;
+	width:100%;
+}
+.haq-registration-form input[type="submit"], 
+.haq-login-form input[type="submit"] {
+		background-color: #555555;
+		border: none;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+		padding: 10px 24px;
+}
+
+.haq-registration-form input[type="text"]:focus, 
+.haq-registration-form input[type="password"]:focus,
+.haq-registration-form input[type="email"]:focus {
+	border-color: #aaa;
+}
+ .age_validation {
+    width: 97% !important;
+    margin-left: 10px;
+}
+.term_condition {
+    width: 97% !important;
+    margin-left: 10px;
+}
+.haq_errors { 
+	padding: 8px; 
+	border: 1px solid #f50; 
+	margin: 0 0 15px; 
+}
